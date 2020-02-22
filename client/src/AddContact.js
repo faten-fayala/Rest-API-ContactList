@@ -32,7 +32,7 @@ class AddContact extends Component {
         </div>
         <div className="modal_items_attribut">
         <button className="add_contact" onClick={()=> {this.props.addcontact(this.state)
-        // yemchi lel page getcontact
+        
         this.props.history.push('/get_contact')}}> 
         
         Add Contact</button>
