@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+  height:100vh;
+
+  background-image: url("https://marniandrose.co.uk/wp-content/uploads/2018/04/283037-download-free-marble-background-2048x1347-xiaomi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.contact-edit{
+  color:white;
+  background-color: gray;
+  height:40px;
+  font-size: 16px;
+  padding:5px;
+  outline: none;
+  margin:20px;
+  width:100px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px #aaa solid;
+}
+.contact-edit:hover{
+  color:gray;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold; 
+}
+.contact_items{
+  color:black;
+  font-weight: bold; 
+/* display: flex;
+justify-content: center; */
+padding:0px 20px;
+
+}
+.modal_items{
+  background-color: white;
+  margin: auto;
+  width:30%;
+  height:250px;
+  border-radius: 10px;
+  border: 1px #aaa solid;
+  /* opacity: 0.5; */
+}
+.add_contact_modal{
+  height:100vh;
+  background-image: url("https://marniandrose.co.uk/wp-content/uploads/2018/04/283037-download-free-marble-background-2048x1347-xiaomi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.modal_items_attribut{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 20px;
+}
+.items{
+  color:black;
+  font-weight: bold;
+  width:80px;
+}
+.add_contact{
+  color:white;
+  background-color: #33a744;
+  height:40px;
+  font-size: 16px;
+  padding:5px;
+  outline: none;
+  margin:20px;
+  width:150px;
+  font-weight: bold;
+  border-radius: 10px; 
+}
+.add_contact:hover{
+  color:#33a744;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.edit_contact{
+  color:white;
+  background-color: #33a744;
+  height:40px;
+  font-size: 16px;
+  padding:5px;
+  outline: none;
+  margin:20px;
+  width:100px;
+  font-weight: bold;
+  border-radius: 10px; 
+}
+.edit_contact:hover{
+  color:#33a744;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.delete_contact{
+  color:white;
+  background-color: red;
+  height:40px;
+  font-size: 16px;
+  padding:5px;
+  outline: none;
+  margin:20px;
+  width:100px;
+  font-weight: bold;
+  border-radius: 10px; 
+  
+}
+.delete_contact:hover{
+  color:red;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.cancel_contact{
+  color:white;
+  background-color: red;
+  height:40px;
+  font-size: 16px;
+  padding:5px;
+  outline: none;
+  margin:20px;
+  width:150px;
+  font-weight: bold;
+  border-radius: 10px; 
+}
+.cancel_contact:hover{
+  color:red;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.contact_description{
+ display: flex; 
+  
+   flex-wrap: wrap ; 
+   margin: auto;
+   width:70%;
+}
+.contact_list_page{
+ 
+  height:100vh;
+  background-image: url("https://marniandrose.co.uk/wp-content/uploads/2018/04/283037-download-free-marble-background-2048x1347-xiaomi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact_item{
+  
+  margin:10px;
+  width: 320px;
+  border-radius: 20px;
+  padding:5px;
+  border: 1px #aaa solid;
+  background-color: white;
+}
+.contact_list{
+  color:white;
+  background-color: gray;
+  height:40px;
+  font-size: 16px;
+  padding:5px;
+  outline: none;
+  margin:100px 20px;
+  width:250px;
+  font-weight: bold;
+  border-radius: 10px;
+  border:none ;
+}
+.title{
+  color:white;
+text-align: center;
+padding: 50px 0px;
+}
+.contact_list:hover{
+  color:gray;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
